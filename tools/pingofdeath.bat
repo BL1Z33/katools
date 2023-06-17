@@ -1,3 +1,5 @@
 @echo off
-set /p I="ip (goto BL1Z33/ktools on github for more info): "
+set /p S="site: "
+ping %S%
+set /p I="ip: "
 ping %I% -t -l 65500
